@@ -1,0 +1,66 @@
+div{
+    align-content: center;
+    margin: auto;
+    float:right;
+}
+article{
+        vertical-align: center;
+        display:flex;
+        background-color: lightgrey;
+        border-radius: 10px;
+        border:black 2px;
+        font-family: Georgia;
+        margin:10px;
+}
+*{
+    margin: 5px;
+}
+
+h1{
+    color:white; font-family: cursive; font-size: 72px;
+}
+h2{
+    color: white;
+}
+body{
+    background-color: black ;
+}
+footer{
+    vertical-align: bottom;
+    align-items: center;
+    color:aliceblue;
+    display: flex;
+}
+.container{
+    align-content: center;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+    display:flex;
+    padding: 20px 20px 0px 10px; 
+}
+header{
+    background-color:black;
+}
+form{
+    width: 400px;
+    margin: 20px auto;
+}
+input, textarea{
+    font-size: 1.25em;
+    display: block;
+    width: 300px;
+    margin: 10px auto;
+    padding: 6px;
+}
+.form-button{
+    text-align: center;
+    background: black;
+    width: 300px;
+    margin: 10px auto;
+    padding: 6px;
+}
+.form-button a{
+    color: #fff;
+    font-size: 1.25em;
+}
+
